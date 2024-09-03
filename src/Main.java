@@ -1,9 +1,86 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int x;
-        x = 1;
-        int a = 1245;
+
+
+        // Задача 1
+// -----------------------------------------------------------------------------------
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Введите число:");
+//        float input = in.nextFloat();
+//
+//        if (input % 2 == 0) {
+//            System.out.println("Число четное.");
+//        } else {
+//            System.out.println("Число нечетное.");
+//        }
+//
+//        in.close();
+// -----------------------------------------------------------------------------------
+
+        // Задача 2
+// -----------------------------------------------------------------------------------
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Введите первое число:");
+//        int input1 = in.nextInt();
+//        System.out.println("Введите второе число:");
+//        int input2 = in.nextInt();
+//        System.out.println("Введите третье число:");
+//        int input3 = in.nextInt();
+//        int minNum = Math.min(input1, Math.max(input2, input3));
+//
+//        System.out.println("Наибольшее число: " + minNum);
+// -----------------------------------------------------------------------------------
+
+        // Задача 3
+// -----------------------------------------------------------------------------------
+//        for (int i = 1; i <= 10; i++)
+//        {
+//            System.out.println("5 * " + i +  "="  + 5 * i);
+//        }
+// -----------------------------------------------------------------------------------
+
+        // Задача 4
+// -----------------------------------------------------------------------------------
+//                Scanner in = new Scanner(System.in);
+//                System.out.println("Введите число:");
+//                int input = in.nextInt();
+//
+//                int result = 0;
+//
+//                for (int i = 1; i <= input; i++) {
+//                    result += i;
+//                }
+//
+//                System.out.println(result);
+//                in.close();
+// -----------------------------------------------------------------------------------
+
+        // Задача 5
+// -----------------------------------------------------------------------------------
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Введите число:");
+//        int N = in.nextInt();
+//
+//        if (N <= 0) {
+//            System.out.println("Введите положительное целое число.");
+//        } else {
+//            System.out.print("Первые " + N + " чисел Фибоначчи: ");
+//            int a = 0, b = 1;
+//
+//            for (int i = 1; i <= N; i++) {
+//                System.out.print(a + " ");
+//
+//                int next = a + b;
+//                a = b;
+//                b = next;
+//            }
+//        }
+//        in.close();
+// -----------------------------------------------------------------------------------
+
+        // Задача 6
+// -----------------------------------------------------------------------------------
     }
 }
