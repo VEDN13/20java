@@ -372,23 +372,23 @@ public class Main {
 // -----------------------------------------------------------------------------------
     Scanner scanner = new Scanner(System.in);
     System.out.println("Введите целое число: ");
-    int number = scanner.nextInt();
-    int originalNumber = number;
+    int input = scanner.nextInt();
+    int original = input;
     int sum = 0;
-    int numberOfDigits = String.valueOf(number).length();
-    while (number > 0)
+    int numberOfDigits = String.valueOf(input).length();
+    while (input > 0)
     {
-        int digit = number % 10;
+        int digit = input % 10;
         sum += Math.pow(digit, numberOfDigits);
-        number /= 10;
+        input /= 10;
     }
-    if (sum == originalNumber)
+    if (sum == original)
     {
-        System.out.println(originalNumber + " является числом Армстронга.");
+        System.out.println(original + " является числом Армстронга.");
     }
     else
     {
-        System.out.println(originalNumber + " не является числом Армстронга.");
+        System.out.println(original + " не является числом Армстронга.");
     }
     scanner.close();
     }
