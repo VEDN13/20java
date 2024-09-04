@@ -5,17 +5,17 @@ public class Main {
 
         // Задача 1
 // -----------------------------------------------------------------------------------
-//        Scanner in = new Scanner(System.in);
-//        System.out.println("Введите число:");
-//        float input = in.nextFloat();
-//
-//        if (input % 2 == 0) {
-//            System.out.println("Число четное.");
-//        } else {
-//            System.out.println("Число нечетное.");
-//        }
-//
-//        in.close();
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите число:");
+        float input = in.nextFloat();
+
+        if (input % 2 == 0) {
+            System.out.println("Число четное.");
+        } else {
+            System.out.println("Число нечетное.");
+        }
+
+        in.close();
 // -----------------------------------------------------------------------------------
 
         // Задача 2
@@ -370,26 +370,26 @@ public class Main {
 
         // Задача 20
 // -----------------------------------------------------------------------------------
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Введите целое число: ");
-    int input = scanner.nextInt();
-    int original = input;
-    int sum = 0;
-    int numberOfDigits = String.valueOf(input).length();
-    while (input > 0)
-    {
-        int digit = input % 10;
-        sum += Math.pow(digit, numberOfDigits);
-        input /= 10;
-    }
-    if (sum == original)
-    {
-        System.out.println(original + " является числом Армстронга.");
-    }
-    else
-    {
-        System.out.println(original + " не является числом Армстронга.");
-    }
-    scanner.close();
+//    Scanner scanner = new Scanner(System.in);
+//    System.out.println("Введите целое число: ");
+//    int input = scanner.nextInt();
+//    int original = input;
+//    int sum = 0;
+//    int numberOfDigits = String.valueOf(input).length();
+//    while (input > 0)
+//    {
+//        int digit = input % 10;
+//        sum += Math.pow(digit, numberOfDigits);
+//        input /= 10;
+//    }
+//    if (sum == original)
+//    {
+//        System.out.println(original + " является числом Армстронга.");
+//    }
+//    else
+//    {
+//        System.out.println(original + " не является числом Армстронга.");
+//    }
+//    scanner.close();
     }
 }
